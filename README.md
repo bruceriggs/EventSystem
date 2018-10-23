@@ -11,9 +11,11 @@ This solution includes the Event System, and some example usage files. If you wa
 #### Initializing
 The event system itself does not need any special initialization. However, the objects that LISTEN for events must subscribe to those events. Example...  
 
+```cpp
 // Subscribe batman to the Bat Signal event  
 Batman batman;  
 EventSystem::Instance()->RegisterClient("BAT_SIGNAL", &batman);  
+```
 
 #### Processing Events
 Every frame of your program, you should call the Event Systems ProcessEvents() method. This method goes through all events currently in queue and has their listeners respond to those events. So once this method has finished, there will be 0 events left over in the queue. Example...  
