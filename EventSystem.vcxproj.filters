@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Batman.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Gordon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Batman.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Gordon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{858c32cc-fe58-491c-b853-f1f4182462b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{25abf163-8536-4afe-90e0-b59bc024c76d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
