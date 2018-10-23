@@ -35,5 +35,5 @@ EventSystem::Instance()->ClearEvents();
 ### Shutting down the system
 When you are finished with the Event System, you can shut it down by calling Shutdown() method. Example...  
 
-// Shutting down the Event System
+// Shutting down the Event System  
 EventSystem::Instance()->Shutdown();  
