@@ -17,6 +17,14 @@ Batman batman;
 EventSystem::Instance()->RegisterClient("BAT_SIGNAL", &batman);  
 ```
 
+#### Sending Events
+Anyone with access to the EventSystem can send events by using the SendEvent() method. The first parameter is what event you are sending, and the second parameter is a void* that you can use to send parameters with.
+
+```cpp
+// Send an event
+EventSystem::Instance()->SendEvent("BAT_SIGNAL", 1);
+```
+
 #### Processing Events
 Every frame of your program, you should call the Event Systems ProcessEvents() method. This method goes through all events currently in queue and has their listeners respond to those events. So once this method has finished, there will be 0 events left over in the queue. Example...  
 
