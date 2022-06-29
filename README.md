@@ -45,7 +45,7 @@ EventSystem::Instance()->UnregisterAll(&batman);
 You can unsubscribe a listener from specific events by calling UnregisterClient(EVENTID, Listener*) method. Example...  
 
 ```cpp
-// Batman no longer cares about Bank Robberies. Stop listening for them.  
+// Batman no longer cares about Bank Robberies. Stop listening for them.. 
 EventSystem::Instance()->UnregisterClient("BANK_ROBBERY", &batman);  
 ```
 
